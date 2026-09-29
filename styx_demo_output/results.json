@@ -1,0 +1,167 @@
+{
+  "tool": "styx",
+  "version": "1.0.0",
+  "generated_at": "2026-09-29T13:58:10+00:00",
+  "source": "local demo spirits",
+  "real_ip": null,
+  "elapsed_s": 0.72,
+  "config": {
+    "command": "demo",
+    "output": "styx_demo_output",
+    "workers": 250,
+    "timeout": 8.0,
+    "tcp_timeout": 4.0,
+    "judge": "http://127.0.0.1:39097/ip",
+    "header_judge": "http://127.0.0.1:39097/echo",
+    "scheme": "auto",
+    "geo": true,
+    "speed": true,
+    "speed_size": 1024,
+    "no_anonymity": false,
+    "quiet": false
+  },
+  "summary": {
+    "total": 4,
+    "alive": 4,
+    "dead": 0,
+    "schemes": {
+      "socks5": 1,
+      "http": 3
+    },
+    "anonymity": {
+      "elite": 2,
+      "anonymous": 1,
+      "transparent": 1
+    },
+    "grades": {
+      "S": 2,
+      "A": 1,
+      "B": 1
+    },
+    "avg_latency_ms": 12,
+    "avg_speed_kbps": 34947.1,
+    "unique_exit_ips": 1
+  },
+  "results": [
+    {
+      "proxy": {
+        "host": "127.0.0.1",
+        "port": 45305,
+        "username": "charon",
+        "password": "obol",
+        "scheme": null,
+        "source_line": "charon:obol@127.0.0.1:45305"
+      },
+      "status": "alive",
+      "detected_scheme": "socks5",
+      "latency_ms": 20,
+      "exit_ip": "127.0.0.1",
+      "anonymity": "elite",
+      "https_capable": true,
+      "speed_kbps": 33475.8,
+      "grade": "S",
+      "error": null,
+      "leaks": [],
+      "ip_type": null,
+      "country": null,
+      "country_code": null,
+      "city": null,
+      "isp": null,
+      "org": null,
+      "asn": null,
+      "known_proxy": null,
+      "checked_at": "2026-09-29T13:58:10+00:00"
+    },
+    {
+      "proxy": {
+        "host": "127.0.0.1",
+        "port": 42563,
+        "username": "charon",
+        "password": "obol",
+        "scheme": null,
+        "source_line": "127.0.0.1:42563:charon:obol"
+      },
+      "status": "alive",
+      "detected_scheme": "http",
+      "latency_ms": 8,
+      "exit_ip": "127.0.0.1",
+      "anonymity": "anonymous",
+      "https_capable": true,
+      "speed_kbps": 26921.8,
+      "grade": "A",
+      "error": null,
+      "leaks": [
+        "via"
+      ],
+      "ip_type": null,
+      "country": null,
+      "country_code": null,
+      "city": null,
+      "isp": null,
+      "org": null,
+      "asn": null,
+      "known_proxy": null,
+      "checked_at": "2026-09-29T13:58:10+00:00"
+    },
+    {
+      "proxy": {
+        "host": "127.0.0.1",
+        "port": 40027,
+        "username": "charon",
+        "password": "obol",
+        "scheme": null,
+        "source_line": "127.0.0.1:40027:charon:obol"
+      },
+      "status": "alive",
+      "detected_scheme": "http",
+      "latency_ms": 7,
+      "exit_ip": "127.0.0.1",
+      "anonymity": "transparent",
+      "https_capable": true,
+      "speed_kbps": 28420.9,
+      "grade": "B",
+      "error": null,
+      "leaks": [
+        "x-forwarded-for"
+      ],
+      "ip_type": null,
+      "country": null,
+      "country_code": null,
+      "city": null,
+      "isp": null,
+      "org": null,
+      "asn": null,
+      "known_proxy": null,
+      "checked_at": "2026-09-29T13:58:10+00:00"
+    },
+    {
+      "proxy": {
+        "host": "127.0.0.1",
+        "port": 42955,
+        "username": "charon",
+        "password": "obol",
+        "scheme": null,
+        "source_line": "127.0.0.1:42955:charon:obol"
+      },
+      "status": "alive",
+      "detected_scheme": "http",
+      "latency_ms": 11,
+      "exit_ip": "127.0.0.1",
+      "anonymity": "elite",
+      "https_capable": true,
+      "speed_kbps": 50969.9,
+      "grade": "S",
+      "error": null,
+      "leaks": [],
+      "ip_type": null,
+      "country": null,
+      "country_code": null,
+      "city": null,
+      "isp": null,
+      "org": null,
+      "asn": null,
+      "known_proxy": null,
+      "checked_at": "2026-09-29T13:58:10+00:00"
+    }
+  ]
+}

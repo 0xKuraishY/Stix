@@ -1,0 +1,5 @@
+host,port,scheme_detected,scheme_input,username,password,status,grade,latency_ms,exit_ip,anonymity,https_capable,speed_kbps,ip_type,country,country_code,city,isp,org,asn,known_proxy,error,leaks,checked_at,source_line
+127.0.0.1,45305,socks5,,charon,obol,alive,S,20,127.0.0.1,elite,True,33475.8,,,,,,,,,,,2026-09-29T13:58:10+00:00,charon:obol@127.0.0.1:45305
+127.0.0.1,42563,http,,charon,obol,alive,A,8,127.0.0.1,anonymous,True,26921.8,,,,,,,,,,via,2026-09-29T13:58:10+00:00,127.0.0.1:42563:charon:obol
+127.0.0.1,40027,http,,charon,obol,alive,B,7,127.0.0.1,transparent,True,28420.9,,,,,,,,,,x-forwarded-for,2026-09-29T13:58:10+00:00,127.0.0.1:40027:charon:obol
+127.0.0.1,42955,http,,charon,obol,alive,S,11,127.0.0.1,elite,True,50969.9,,,,,,,,,,,2026-09-29T13:58:10+00:00,127.0.0.1:42955:charon:obol
